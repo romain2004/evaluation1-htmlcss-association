@@ -1,0 +1,41 @@
+header {
+    height: 80px;
+    display: flex;
+    flex-flow: row;
+    padding: 0 2rem;
+    background-color: #f5f5f5;
+    box-shadow: 0px 5px 5px rgba($color: #cbd7dddc, $alpha: 1.0);
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .header-evenement:hover {
+                color: #0652DD;
+        }
+        .header-evenement {
+            font-size: 3rem;
+            font-family: 'caveat', sans-serif;
+        }
+
+        li{
+            display: flex;
+            align-items: center;
+
+        
+            a {
+                color: #0652DD;
+                font-family: 'Caveat', cursive;
+                font-size: 3rem;
+            }
+
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+

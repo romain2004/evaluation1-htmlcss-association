@@ -1,0 +1,22 @@
+.container-content {
+    .block-content-two {
+        h2:hover{
+            color: #0652dd;
+        }
+    }
+    strong {
+        color: #0652dd;
+    }
+
+    .image2 {
+        img {
+            width: 100%;
+            padding-top: 3rem;
+        }
+    }
+    .slogan {
+        font-size: 3rem;
+        padding: 2rem;
+        text-align: center;
+    }
+}

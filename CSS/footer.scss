@@ -1,0 +1,109 @@
+footer {
+    display: flex;
+    flex-flow: column;
+    background-color: #272727;
+    padding: 2rem 2rem 2rem 2rem;
+    ul {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        
+        li {
+            display: flex;
+            flex-flow: column;
+            align-items: center; 
+            padding: 2rem 0 2rem 0;
+
+            h4 {
+                color: var(--text-color);
+                font-size: 2rem;
+                font-weight: bold;
+
+            }
+            
+            p {
+                color: var(--text-color);
+            }
+        }  
+    }
+                    
+    hr {
+        margin: 0;
+        width: 10rem;
+        margin: auto;
+    }
+        
+    .vp-logo {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0 2rem 0;
+        img {
+            width: 50px;
+            height: 50px;
+            }
+        a {
+            color: #0652DD;
+            font-family: 'Caveat', cursive;
+            font-size: 3rem;
+        }
+        }
+    }
+
+    .copyright {
+        color: var(--text-color);
+        text-align: center;
+
+    }
+
+@media only screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2 5rem 0 5rem;
+        ul{
+            max-width: 1424px;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+
+            li{
+                
+                p {
+                    text-align: left; 
+                    width: 100%;
+                    transition: ease-in-out .2s;
+                    cursor: pointer;
+                    font-size: 2.2rem;
+                }
+
+                p:hover {
+                    color: #0652DD;
+                }
+                h4 {
+                    text-align: left; 
+                    width: 100%;
+                    font-size: 3rem;
+                }
+            }
+            .li-padding {
+                padding-left: 200px;
+                padding-right: 200px;
+            }
+        }
+        .vp-logo {
+            img {
+                width: 25%;
+                height: 25%;
+            }
+            p {
+                font-size: 5rem;
+            }
+        }
+        hr{
+            display: none;
+        }
+    }
+}
